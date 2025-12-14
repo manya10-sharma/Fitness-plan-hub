@@ -71,7 +71,55 @@ FitPlanHub/
 
 --- 
 
-## ⚙️ How to Run the Project Locally
+## 📥 How to Clone & Run the Project Locally
 
+Follow the steps below to set up and run **FitPlanHub** on your local machine.
 
+---
 
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/FitPlanHub.git
+```
+Navigate into the project directory:
+cd FitPlanHub
+
+2️⃣ Backend Setup
+Go to the backend folder:
+cd fitplanhub-backend
+
+Install backend dependencies:
+npm install
+
+Create a .env file inside the fitplanhub-backend folder and add the following:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+
+Start the backend server:
+npm run dev
+
+The backend will run at:
+http://localhost:5000
+
+3️⃣ Frontend Setup
+Open a new terminal and navigate to the frontend folder:
+cd fitplanhub-frontend
+
+Install frontend dependencies:
+npm install
+
+Start the frontend server:
+npm run dev
+
+The frontend will run at:
+http://localhost:5173
+
+4️⃣ Access the Application
+-Open your browser and visit:
+ http://localhost:5173
+-Sign up as a User or Trainer
+-Login and explore dashboards
+
+---
