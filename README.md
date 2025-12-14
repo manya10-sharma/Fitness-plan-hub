@@ -77,7 +77,7 @@ Follow the steps below to set up and run **FitPlanHub** on your local machine.
 
 ---
 
-### 1️⃣ Clone the Repository
+1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/FitPlanHub.git
@@ -123,3 +123,4 @@ http://localhost:5173
 -Login and explore dashboards
 
 ---
+
