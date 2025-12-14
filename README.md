@@ -73,10 +73,5 @@ FitPlanHub/
 
 ## ⚙️ How to Run the Project Locally
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/FitPlanHub.git
-cd FitPlanHub
 
-## 📂 Project Structure
 
