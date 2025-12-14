@@ -1,0 +1,65 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-card {
+  background: white;
+  width: 360px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.modal-card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.plan-name {
+  text-align: center;
+  font-weight: 600;
+}
+
+.price {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-options label {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pay-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pay-btn:hover {
+  background: #1e40af;
+}
